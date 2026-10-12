@@ -1,0 +1,78 @@
+Name: Julius Inocencio
+FSUID: JI23D
+Git Lab Tutorials Completed: October 13, 2026
+GitHub Account Created: October 13, 2026
+
+1. Console output saved after pushing docs/status.txt
+
+To https://github.com/julius-inocencio/assignment2.git
+   a39cefe..b469122  master -> master
+
+
+2. How many commits have been made so far?
+
+The repository had 9 commits before I committed my completed answers.txt file.
+
+Command used:
+
+git rev-list --count HEAD
+
+
+3. When was README.md last modified?
+
+README.md was last modified on October 13, 2026.
+
+Command used:
+
+git log -1 --format="%ad" --date=local -- README.md
+
+
+4. Why are branches used?
+
+First, branches let developers work on new features or fixes without changing the main version of the project.
+
+Second, branches let multiple developers work on different parts of a project at the same time.
+
+
+5. What is the difference between git log and git status?
+
+git log shows the history of commits made to the repository.
+
+git status shows the files that are currently changed, staged, or not being tracked.
+
+
+6. What command shows commits that included Vehicle.h?
+
+git log -- Vehicle.h
+
+
+7. What command shows commits with the word "file" in the commit message?
+
+git log --grep="file" --oneline
+
+
+8. Object-oriented programming concepts
+
+I. Inheritance
+
+Inheritance allows one class to use information and functions from another class. This helps developers reuse code.
+
+II. Polymorphism
+
+Polymorphism allows the same function to work differently depending on the type of object using it.
+
+III. Encapsulation
+
+Encapsulation keeps an object's information and functions together inside a class. It can also prevent other parts of the program from directly changing private information.
+
+
+9. What is the main difference between the Dictator and Lieutenants workflow and the Integration Manager workflow?
+
+In the Integration Manager workflow, one manager reviews and combines changes from all developers.
+
+In the Dictator and Lieutenants workflow, developers are divided into smaller groups. Each lieutenant reviews the work from one group, and the dictator combines the work received from the lieutenants.
+
+
+10. How would a team of 100 developers benefit from the Dictator and Lieutenants workflow instead of the Centralized workflow?
+
+The team could be divided into smaller groups, with one lieutenant responsible for each group. This would make changes easier to review and reduce the number of conflicts handled by one person. It would also keep the main repository more organized because the dictator would receive reviewed changes from the lieutenants instead of receiving changes directly from all 100 developers.
